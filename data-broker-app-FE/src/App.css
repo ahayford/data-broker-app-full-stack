@@ -1,0 +1,21 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+table thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.broker-table {
+    flex-grow: 1;
+    min-height: 0;
+    overflow: scroll;
+}
+
+tr:nth-child(even) {background: #eaf2ff
+}
+tr:nth-child(odd) {background: #FFF}
